@@ -1,0 +1,238 @@
+/*第一种引用字体图标的方法*/
+/*@font-face {*/
+/*    font-family: "iconfont";*/
+/*    src: url("../font/iconfont.eot"),*/
+/*            url("../font/iconfont.svg"),*/
+/*            url("../font/iconfont.ttf"),*/
+/*            url("../font/iconfont.woff"),*/
+/*            url("../font/iconfont.woff2");*/
+/*}*/
+/*版心*/
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.style_red {
+    color: #c81623;
+}
+.shortcut ul li {
+    float: left;
+}
+/*选择偶数的li*/
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+/*header*/
+.header {
+    position: relative;
+    height: 105px;
+}
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 171px;
+    height: 61px;
+}
+.logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    background: url("../images/logo.png") no-repeat;
+    /*让文字隐藏，此处为了seo加上文字说明。再通过css把文字隐藏*/
+    /*淘宝的做法*!*/
+    /*!*font-size: 0; */
+    /*京东的做法*/
+    text-indent: -999px;
+    overflow: hidden;
+}
+.search {
+    position: absolute;
+    top: 25px;
+    left: 346px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+.search button {
+    float: left;
+    width: 80px;
+    height: 32px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #ffffff;
+}
+.hot-words {
+    position: absolute;
+    top: 66px;
+    left: 346px;
+}
+.hot-words a {
+    margin: 0 10px;
+}
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
+/*.shopCar::before {*/
+/*    content: "1";*/
+/*}*/
+/*.shopCar::after {*/
+/*    content: "2";*/
+/*}*/
+/*.shopCar i {*/
+/*    color: #e33333;*/
+/*}*/
+.count {
+    position: absolute;
+    top: -5px;
+    left: 105px;
+    height: 14px;
+    line-height: 14px;
+    color: #fff;
+    background-color: #e60012;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0;
+}
+.nav {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+.nav .dropdown {
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+}
+.dropdown .dt {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+}
+.dropdown .dd {
+    height: 465px;
+    width: 210px;
+    margin-top: 2px;
+    background-color: #c81623;
+    display: none;
+}
+.dropdown .dd ul li {
+    height: 31px;
+    line-height: 31px;
+    margin-left: 2px;
+    padding-left: 10px;
+}
+.dropdown .dd ul li a {
+    font-size: 14px;
+    color: #ffffff;
+}
+.dropdown .dd ul li:hover {
+    background-color: #fff;
+}
+.dropdown .dd ul li:hover a {
+    color: #c81623;
+}
+.nav-items ul li {
+    float: left;
+
+}
+.nav-items ul li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    padding: 0 25px;
+}
+/*footer*/
+.footer {
+    height: 475px;
+    padding-top: 30px;
+    background-color: #f5f5f5;
+}
+.mod-service {
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+}
+.mod-service ul li {
+    width: 300px;
+    height: 50px;
+    float: left;
+    padding-left: 35px;
+}
+.mod-service ul li h5 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url("../images/icons.png") no-repeat -252px -2px;
+    margin-right: 5px;
+}
+.service-txt h4 {
+    font-size: 14px;
+}
+.service-txt p {
+    font-size: 12px;
+}
+.mod-help {
+    height: 185px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.mod-help dl {
+    float: left;
+    width: 200px;
+}
+.mod-help dl:last-child {
+    width: 90px;
+    text-align: center;
+}
+.mod-help dl dt {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.mod-copyright{
+    text-align: center;
+    padding-top: 20px;
+}
+.links {
+    margin-bottom: 15px;
+}
+.links a {
+    margin: 0 3px;
+}
+.copyright {
+    line-height: 20px;
+}
+
+
+
+
+
