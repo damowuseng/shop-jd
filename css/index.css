@@ -1,0 +1,174 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+    /*background-color: #e33333;*/
+}
+.focus {
+    width: 721px;
+    height: 455px;
+    float: left;
+}
+.focus ul img {
+    width: 721px;
+    height: 455px;
+}
+.news {
+    width: 250px;
+    height: 455px;
+    float: right;
+}
+.news-list {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.news-hd {
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+.news-hd .more {
+    float: right;
+}
+.news-hd .more::after {
+    content: ">";
+}
+.news-bd {
+    padding: 5px 15px 0;
+}
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    /*超出文字显示...*/
+    text-overflow: ellipsis;
+}
+.life {
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+
+}
+.life ul li {
+    margin-right: -1px;
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px  solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.life ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url("../images/icons.png") no-repeat -17px -15px;
+}
+.ad1 {
+    margin-top: 5px;
+}
+/*推荐模块*/
+.recom {
+    height: 163px;
+    margin-top: 12px;
+    background-color: #ebebeb;
+}
+.recom-left {
+    float: left;
+    width: 205px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+.recom-right {
+    float: left;
+}
+.recom-right ul li {
+    float: left;
+    position: relative;
+}
+.recom-right ul li img  {
+    width: 248px;
+    height: 163px;
+}
+.recom-right ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+/*楼层模块*/
+.floor .w {
+    margin-top: 30px;
+}
+
+.floor .floor-one-header {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.floor .floor-one-header h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+.floor .floor-one-header .table-list {
+    float: right;
+    line-height: 30px;
+}
+.floor .floor-one-header .table-list ul li {
+    float: left;
+}
+.floor .floor-one-header .table-list ul li a{
+    margin: 0 15px;
+}
+.floor-one-body {
+    height: 361px;
+}
+.items>div {
+    float: left;
+    height: 361px;
+}
+.col-210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col-210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+.col-210 ul {
+    padding-left: 12px;
+}
+
+.col-329 {
+    width: 329px;
+}
+.col-221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.col-219 {
+    width: 219px;
+}
+.bb {
+    display: block;
+    border-bottom: 1px solid #cccccc;
+}
