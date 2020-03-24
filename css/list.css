@@ -1,0 +1,29 @@
+.nav {
+    overflow: hidden;
+}
+
+.nav .left-list ul li {
+    float: left;
+
+}
+.nav .left-list ul li a {
+    display: block;
+    line-height: 47px;
+    font-size: 16px;
+    padding: 0 30px;
+    font-weight: 700;
+    color: #000;
+}
+.nav .right-list ul li {
+    float: left;
+}
+.nav .right-list ul li a {
+    display: block;
+    line-height: 49px;
+    font-size: 14px;
+    padding: 0 20px;
+}
+.container-body ul li {
+    width: 290px;
+    height: 460px;
+}
